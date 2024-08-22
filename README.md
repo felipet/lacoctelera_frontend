@@ -6,6 +6,7 @@
     </strong>
   </p>
   <p>
+  </div>
 
 ---
 
@@ -23,7 +24,7 @@ the service shall be found [here][lacoctelera_backend]. The service's frontend i
 
 In order to run this service, following dependencies are needed:
 
-- **Node.js \***. The latest LTS version installation guidelines found [here][node-js-install].
+- **Node.js**. The latest LTS version installation guidelines found [here][node-js-install].
 
 After installing Node.js, install the rest of dependencies specified in package.json file simply running
 
@@ -41,21 +42,12 @@ To start a development server, run:
 $ npm run dev
 ```
 
-To view the project in your browser follow the default URL:
-http://localhost:5173/
+To view the project in your browser follow the next URL:
+http://localhost:5173/ingredient
 
-If this server port is already being used, follow VITE's instruction in the terminal. It will automatically try the next available port.
-To change server port manually consult Vite [documentation][vite-config]
+## Functionality
 
-## Version 0.9
-
-The earliest version of La Coctelera app includes:
-
-- A homepage with tested GET request (displays different types of vodka from the app's database as default)
-- About page with dummy text
-
-- Share your recipe page with tested POST request .To check your POST request status go to console, or insert a new type of vodka and look for it on the homepage.
+Sends a new ingredient to the app's database.
 
 [lacoctelera_backend]: https://github.com/felipet/lacoctelera_backend
 [node-js-install]: https://nodejs.org/en
-[vite-config]: https://vitejs.dev/config/server-options
