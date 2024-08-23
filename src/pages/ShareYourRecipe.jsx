@@ -48,7 +48,7 @@ const ShareYourRecipe = () => {
         <input
           type="radio"
           name="category"
-          value="Other"
+          value="Garnish"
           className="radio radio-primary"
         />
         {"Garnish "}
